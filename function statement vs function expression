@@ -1,0 +1,18 @@
+a();
+b();
+
+
+//function statement
+
+function a(){
+    console.log("function statement");
+    //hoisted as it is on the top
+}
+ //function expression
+
+ var b= function(){
+    console.log("function expression");
+    //hoisted as variable ,first the value of b  is asigned as undefined
+    //till the line of execution comes on 9th line again
+
+ }
